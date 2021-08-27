@@ -25,11 +25,13 @@
 # SRAM design
 Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 
-**6T-SRAM Cell Circuit diagram**
+>**6T-SRAM Cell Circuit diagram**
+>---
 
 ![alt text](https://user-images.githubusercontent.com/49194847/100307234-54a68d80-2fcb-11eb-9a73-0753d59bd340.png)
 
-**Sizing calculation of 6T-SRAM cell**
+>**Sizing calculation of 6T-SRAM cell**
+>---
 
 ![alt text](Project%20Images/0001%20(1).png)
 
@@ -38,14 +40,16 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 
 # Modes Of SRAM Operation
  
- **Hold State**
+> **Hold State**
+> ---
 
 - **WORDLINE=0** 
 - Access transistors(M3,M4)-OFF
 - Bistable operating points
 - Previous data stored
  
- **Read Mode**
+> **Read Mode**
+> ---
  
  ![alt text](https://user-images.githubusercontent.com/49194847/100306663-e57c6980-2fc9-11eb-8096-2ed351e49d88.png)
  
@@ -54,7 +58,8 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 - Bitlines Precharged
 - Data(Q) to be read
  
- **Write Mode**
+> **Write Mode**
+> ---
  
  ![alt text](https://user-images.githubusercontent.com/49194847/100307328-8fa8c100-2fcb-11eb-9d64-b9a1cc66b057.png)
  
@@ -64,20 +69,41 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 - Data(Q) to be flipped/written over previous value
 # PreLayout Simulations
 
-**VTC Curve of the CMOS Inverter**
+>**VTC Curve of the CMOS Inverter**
+>---
 
 ![](Project%20Images/vtc%20curve.png)
 
-**SNM**
+>**SNM**
+---
 
 It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
 
-**HOLD SNM**
+>**HOLD SNM**
+>---
 
 
 ![](Project%20Images/hold%20curve.png)
 
-**Read SNM**
+>**Read SNM**
+>---
 
 ![](Project%20Images/read%20curve.png)
+
+
+>**DC analysis**
+>---
+
+By doing dc analysis i have checked the performance of the SRAM cell at different Process Voltage Temperature(PVT) corners ranging from -40 degree celsius to 125 degree celsius.
+
+**Tabulation**
+
+|Process corners|-40|27|125|
+|---|---|---|---|
+|**SS**|Vq=0.978 Vqb=4.68|Vq=0.978 Vqb=4.72|***Vq=0.956 Vqb=4.77***|
+|**NOM**|Vq=0.983 Vqb=4.65|Vq=0.983 Vqb=4.69|Vq=0.962 Vqb=4.75|
+|**FF**|Vq=0.998 Vqb=4.59|***Vq=0.999 Vqb=4.63***|Vq=0.980 Vqb=4.70|
+
+From the above tabulation it is observed that the 6T-SRAM cell is fast at process corner FF at 27 degree celsius and slow at process corner SS at 125 degree celsius.
+
 
