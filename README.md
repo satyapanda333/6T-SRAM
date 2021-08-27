@@ -46,6 +46,7 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 - Previous data stored
  
  **Read Mode**
+ 
  ![alt text](https://user-images.githubusercontent.com/49194847/100306663-e57c6980-2fc9-11eb-8096-2ed351e49d88.png)
  
 - **WORDLINE=1**
@@ -54,6 +55,7 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 - Data(Q) to be read
  
  **Write Mode**
+ 
  ![alt text](https://user-images.githubusercontent.com/49194847/100307328-8fa8c100-2fcb-11eb-9d64-b9a1cc66b057.png)
  
 - **WORDLINE=1**
@@ -66,7 +68,8 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 
 ![](Project%20Images/vtc%20curve.png)
 
-**SNM of 6T-SRAM**
+**SNM**
+
 It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
 
 **HOLD SNM**
