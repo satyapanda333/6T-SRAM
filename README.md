@@ -34,7 +34,7 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 >---
 This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS technology.After calculation it is observed that the minimum sizing is possible at 1 volt with W1=0.7u,L1=0.4u,W3=0.6u,L3=0.5u,W5=0.6u,L5=0.4u.
 
-![alt text](Project%20Images/https://github.com/satyapanda333/6T-SRAM/blob/main/Project%20Images/Screenshot%20(49).png)
+![alt text](Project%20Images/Screenshot%20(49).png)
 
 
 
@@ -75,7 +75,7 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
 
 ![](Project%20Images/vtc%20curve.png)
 
->**SNM**
+>**Static Noise Margin(SNM)**
 ---
 
 The stability of SRAM circuit depends on the Static Noise Margin .This is the maximum amount of voltage noise that can be tolerated at the cross-inverters output nodes without flipping the cell.It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
