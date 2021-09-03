@@ -111,3 +111,22 @@ From the above tabulation it is observed that the 6T-SRAM cell is fast at proces
 
 
 
+
+
+
+
+
+
+* * *
+[Silicon Institute Of Technology,Bhubaneswar]: https://www.silicon.ac.in/sitbbsr/
+[Prof. Saroj Kumar Rout]: https://www.linkedin.com/in/sroutk/
+[Prof. Santanu Sarangi]: https://www.linkedin.com/in/santunu-sarangi-b731305b/
+[OpenRAM]:              https://openram.soe.ucsc.edu/
+[SCMOS]:                https://www.mosis.com/files/scmos/scmos.pdf
+[NGSpice]:              http://ngspice.sourceforge.net
+[NGSpiceMan]:           http://ngspice.sourceforge.net/docs/ngspice-html-manual/manual.xhtml
+[Magic]:                http://opencircuitdesign.com/magic/
+[Netgen]:               http://opencircuitdesign.com/netgen/
+
+
+
