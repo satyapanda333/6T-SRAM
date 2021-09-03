@@ -10,6 +10,7 @@
 
 
 - [PreLayout Simulations](https://github.com/satyapanda333/6T-SRAM.git#PreLayout-Simulations)
+- [Acknowledgements](https://github.com/satyapanda333/6T-SRAM.git#Acknowledgements)
   
 # Project Details
  - **Organisation** : Advance VLSI Lab, [Silicon Institute Of Technology,Bhubaneswar]
