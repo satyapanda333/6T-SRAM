@@ -69,7 +69,6 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
 
 
 ## Static Noise Margin(SNM)
----
 
 The stability of SRAM circuit depends on the Static Noise Margin .This is the maximum amount of voltage noise that can be tolerated at the cross-inverters output nodes without flipping the cell.It can be extracted by calculating the largest possible square in the two voltage transfer characteristic curves (VTC) of the involved CMOS inverters and get us to know how much noise the SRAM Cell can tolerate.
 
