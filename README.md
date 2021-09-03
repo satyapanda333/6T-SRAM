@@ -34,7 +34,7 @@ Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 >---
 This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS technology.After calculation it is observed that the minimum sizing is possible at 1 volt with W1=0.7u,L1=0.4u,W3=0.6u,L3=0.5u,W5=0.6u,L5=0.4u.
 
-![alt text](Project%20Images/0001%20(1).png)
+![alt text](Project%20Images/https://github.com/satyapanda333/6T-SRAM/blob/main/Project%20Images/Screenshot%20(49).png)
 
 
 
