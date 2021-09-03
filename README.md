@@ -111,3 +111,10 @@ By doing dc analysis i have checked the performance of the SRAM cell at differen
 From the above tabulation it is observed that the 6T-SRAM cell is fast at process corner FF at 27 degree celsius and slow at process corner SS at 125 degree celsius.
 
 
+# Acknowledgements
+
+- Dr.Saroj Rout,Associate Professor,Silicon Institute Of Technology,Bhubaneswar
+- Mr.Santunu Sarangi,Assistant Professor,Silicon Institute Of Technology,Bhubaneswar
+
+
+
