@@ -52,7 +52,6 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
 > **Read Mode**
 > ---
  
- ![alt text](https://user-images.githubusercontent.com/49194847/100306663-e57c6980-2fc9-11eb-8096-2ed351e49d88.png)
  
 - **WORDLINE=1**
 - Access transistors(M3,M4)-ON
@@ -61,8 +60,6 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
  
 > **Write Mode**
 > ---
- 
- ![alt text](https://user-images.githubusercontent.com/49194847/100307328-8fa8c100-2fcb-11eb-9d64-b9a1cc66b057.png)
  
 - **WORDLINE=1**
 - Access transistors(M3,M4)-ON
