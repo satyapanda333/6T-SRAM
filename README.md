@@ -117,7 +117,7 @@ By transient analysis a circuits response over a period of time is checked.
 >---
 
 
-![alt text](sram parasitics fig.png)
+![alt text](sram parasitics fig.PNG)
 
 
 
