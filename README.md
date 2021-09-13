@@ -15,7 +15,7 @@
 # Project Details
  - **Organisation** : Advance VLSI Lab, [Silicon Institute Of Technology,Bhubaneswar]
  - **Instructors**  : [Prof. Saroj Kumar Rout], [Prof. Santanu Sarangi]
- - **About**        :In this project, we design a novel six-transistor (6T) static random access memory (6T-SRAM) cell for standard applications.
+ - **About**        :In this project, we have designed a six-transistor (6T) static random access memory (6T-SRAM) cell for minimum area.
  - **Tools used** : Spice simulation-[NGSpice], Layout design-[Magic], Memory compiler-[OpenRAM]
  - **Technology used**:  MOSIS Scalable CMOS ([SCMOS]):[SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS.
  - **Typical MOS parameters**:
@@ -125,8 +125,7 @@ By transient analysis a circuits response over a period of time is checked.
 >**Simulation result**
 >---
 
-![alt text](Transient analysis.png)
-
+![alt text](https://github.com/satyapanda333/6T-SRAM/blob/main/Transient%20analysis.png)
 
 
 
