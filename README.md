@@ -38,8 +38,9 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
 ![alt text](Project%20Images/Screenshot%20(49).png)
 
 >**6T-SRAM cell(With minimum area after sizing calculation)**
+>---
 
-![alt text](
+![alt text](6tsram.png)
 
 
 
@@ -106,6 +107,17 @@ By doing dc analysis i have checked the performance of the SRAM cell at differen
 |**FF**|Vq=0.998 Vqb=4.59|***Vq=0.999 Vqb=4.63***|Vq=0.980 Vqb=4.70|
 
 From the above tabulation it is observed that the 6T-SRAM cell is fast at process corner FF at 27 degree celsius and slow at process corner SS at 125 degree celsius.
+
+>**Transient analysis**
+>---
+
+By transient analysis a circuits response over a period of time is checked.
+
+>** Circuit diagram of 6T-SRAM cell with all parasitics for transient analysis
+>---
+
+![alt text](.png)
+
 
 
 # Acknowledgements
