@@ -37,6 +37,9 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
 
 ![alt text](Project%20Images/Screenshot%20(49).png)
 
+
+
+
 >**6T-SRAM cell(With minimum area after sizing calculation)**
 >---
 
@@ -113,11 +116,17 @@ From the above tabulation it is observed that the 6T-SRAM cell is fast at proces
 
 By transient analysis a circuits response over a period of time is checked.
 
->** Circuit diagram of 6T-SRAM cell with all parasitics for transient analysis
+>**Circuit diagram of 6T-SRAM cell with all parasitics for transient analysis**
 >---
 
 
-![alt text](sram parasitics fig.PNG)
+![alt text](https://github.com/satyapanda333/6T-SRAM/blob/main/sram%20parasitics%20fig.PNG)
+
+>**Simulation result**
+>---
+
+![alt text](Transient analysis.png)
+
 
 
 
