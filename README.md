@@ -116,6 +116,7 @@ By transient analysis a circuits response over a period of time is checked.
 >** Circuit diagram of 6T-SRAM cell with all parasitics for transient analysis
 >---
 
+
 ![alt text](sram parasitics fig.png)
 
 
