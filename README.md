@@ -85,7 +85,7 @@ The stability of SRAM circuit depends on the Static Noise Margin .This is the ma
 >---
 The below plot is the plot of VTC of inverter 2 and inverse VTC of inverter 1.As they are connected back to back a two-lobed (butterfly) curve is generated.
 
-![](Project%20Images/hold%20curve.png)
+![](Project%20Images/HOLD%20SNM.png)
 
 >**Read SNM**
 >---
@@ -93,7 +93,7 @@ The below plot is the plot of VTC of inverter 2 and inverse VTC of inverter 1.As
 As during the read operation the word line is on and bit line ,bit libe bar both charged to vdd the circuit across the access transistors act as a voltage divider and the internal node voltage increases gradually.that leads to the shrinking of the curve.
 
 
-![](Project%20Images/read%20curve.png)
+![](Project%20Images/READ%20SNM.png)
 
 
 >**DC analysis**
