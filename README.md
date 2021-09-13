@@ -17,19 +17,19 @@
  - **Instructors**  : [Prof. Saroj Kumar Rout], [Prof. Santanu Sarangi]
  - **About**        :In this project, we design a novel six-transistor (6T) static random access memory (6T-SRAM) cell for standard applications.
  - **Tools used** : Spice simulation-[NGSpice], Layout design-[Magic], Memory compiler-[OpenRAM]
- - **Technology used**:  MOSIS Scalable CMOS ([SCMOS]):[SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS. 
+ - **Technology used**:  MOSIS Scalable CMOS ([SCMOS]):[SCMOS] is a *lambda-based* scalable design rules that can be interfaced to many CMOS fabrication process available at MOSIS.
  - **Typical MOS parameters**:
     - **NMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=0.49V, un(mobility)=445 cm^2/Vs
     - **PMOS**: tox=7.6nm, nch=1.7e17/cm^3, Vt0=-0.66V, up(mobility)=151 cm^2/Vs
     - Vdd=5V, Lmin=0.4um, Wmin=0.6um
-  
+    
+ - **SRAM Specification** 
+	 -  Memory Size --> 1kx32-bit
+	 - Technology PDK file --> 0.4um SCMOS Technology from MOSIS
+	 -  Operating voltage --> 5V
 # SRAM design
 Design of a 6T-SRAM cell for minimum area using the 0.5um SCMOS technology.
 
->**6T-SRAM Cell Circuit diagram**
->---
-
-![alt text](https://user-images.githubusercontent.com/49194847/100307234-54a68d80-2fcb-11eb-9a73-0753d59bd340.png)
 
 >**Sizing calculation of 6T-SRAM cell**
 >---
