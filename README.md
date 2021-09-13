@@ -37,6 +37,10 @@ This is the calculation for a 6T-SRAM cell for minimum area using 0.5um SCMOS te
 
 ![alt text](Project%20Images/Screenshot%20(49).png)
 
+>**6T-SRAM cell(With minimum area after sizing calculation)**
+
+![alt text](
+
 
 
 
